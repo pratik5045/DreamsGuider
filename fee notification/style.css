@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+.fee-notification{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding-top: 1vw;
+}
+
+.fee-notif-head{
+    width: 80%;
+    height: 8%;
+    background-color: blue;
+    border-radius: 12px;
+    margin-left: 10vw;
+    /* padding-top: 2vw; */
+    display: flex;
+    align-items: center;
+    padding-left: 23vw;
+}
+
+.fee-notif-head i{
+    font-size: 5vh;
+    color: #fff;
+}
+
+.fee-notif-head h2{
+    font-weight: 600;
+    margin-left: 10vw;
+    color: #fff;
+}
+
+.fee-mid{
+    width: 100%;
+    height: 92%;
+    /* background-color: red; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fee-mid-inner{
+    width: 80%;
+    margin-left: 10vw;
+    height: 80%;
+    /* background-color: cadetblue; */
+    border: 1px solid #c3c3c3;
+}
+
+.upper{
+    width: 100%;
+    height: 7%;
+    /* background-color: coral ; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.upper-common{
+    width: 33%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #c3c3c3;
+}
+
+.lower{
+   width: 100%;
+   height: 93%;
+   /* background-color: cadetblue; */
+}
+
+.lower-in{
+    width: 100%;
+    height: 20%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.paid p{
+    color: green;
+    font-weight: 700;
+}
+
+.remaining p{
+    color: red;
+    font-weight: 700;
+}
+
+.fee-bottom{
+    width: 100%;
+    height: 5vw;
+    /* background-color: blueviolet; */
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fee-bottom button{
+    padding: 1vh;
+    width: 8vw;
+    background: none;
+    border: 1px solid #c3c3c3;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    outline: none;
+}

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.student-profile-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-side-profile{
+    width: 20%;
+    height: 100%;
+    background-color: #6b74f7;
+}
+
+.upper-profile{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.1vw 0;
+    border-bottom: 2px solid white;
+}
+.student-info{
+    margin-top: 1vh;
+}
+.student-info p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 0.3vw;
+    color: #fff;
+}
+.lower-profile{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lower-profile p{
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lower-profile p:hover{
+    background-color: #fff;
+    color: #6b74f7;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.lower-low{
+    width: 100%;
+    margin-top: 1.5vw;
+}
+.lower-low p{
+    padding-left: 3vw;
+    padding-top: 1.5vh;
+    font-weight: 500;
+    transition: 400ms;
+}
+.lower-low i{
+    margin-right: 3vw;
+    font-size: 3vh;
+}
+.right-side-info{
+    width: 80%;
+    height: 100%;
+}
+
+.right-upper{
+    width: 100%;
+    height: 20%;
+    background-color: #edf1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-upper{
+    width: fit-content;
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+.inner-upper p{
+    font-size: 2.55vh;
+    color: rgb(2, 2, 160);
+    font-weight: 550;
+}
+.inner-upper h3{
+    font-size: 5vh;
+    font-weight: 500;
+    color: rgb(251, 35, 35);
+}
+.right-mid{
+    width: 100%;
+    height: 80%;
+}
+
+.setting{
+    height: 26%;
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 2vw;
+    padding-left: 6vw;
+   
+}
+.setting h1{
+    font-size: 6vh;
+    font-weight: 500;
+}
+
+.setting input{
+    font-size: 2vh;
+    padding: 1vh;
+    width: 92%;
+    height: 3vw;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    margin-top: 2vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.setting-activities{
+    padding-top: 1vh;
+    height: 24.5%;
+    width: 100%;
+    /* margin-top: 1vh; */
+    /* background-color: crimson; */
+}
+
+.all-actions{
+    width: 100%;
+    /* height: 50%; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.all-actions p{
+    font-size: 2vh;
+    width: 15vw;
+    background-color: #fff;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.all-actions i{
+    padding-right: 1vh;
+    font-size: 3vh;
+}

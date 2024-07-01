@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.select-date{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-option{
+    width: 30vw;
+    height: 30vw;
+    /* background-color: aqua; */
+    border-radius: 12px;
+    border: 1px solid #c3c3c3;
+}
+
+.upper-date{
+    width: 100%;
+    height: 20%;
+    background-color: #007bff;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.upper-date i{
+    font-size: 5vh;
+    margin: 2vw;
+    color: #fff;
+}
+
+.upper-date h2{
+    margin-right: 2vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+.lower-dates{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(223, 243, 190);
+    border-radius: 0 0 12px 12px;
+}
+
+.date{
+    width: 100%;
+    height: 14%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: .1vh; */
+}
+
+.date-common{
+    width: 33%;
+    height: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-common p{
+    font-size: 2.5vh;
+}

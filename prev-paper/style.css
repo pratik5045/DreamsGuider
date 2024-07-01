@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.prev-paper{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.prev-paper-head{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-head{
+    width: 70%;
+    height: 60%;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    padding-left: 4vw;
+}
+
+.paper-head i{
+    font-size: 5vh;
+    color:#fff;
+    text-align: left;
+}
+
+.paper-head h2{
+    color: #fff;
+    font-size: 4.2vh;
+    font-weight: 500;
+    margin-left: 14vw;
+}
+
+.file{
+    width: 80%;
+    height: 7%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    padding-left: 4vw;
+    margin-left: 9vw;
+}
+
+.file h3{
+    font-size: 4vh;
+    font-weight: 500;
+}
+.prev-mid{
+    height: 83%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev-mid-inner{
+    width: 82%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.left-inner{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    padding-top: 1vh;
+    border-radius: 15px;
+    border: solid 1px gray;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.paper-inner{
+    width: 100%;
+    height: 33%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 1.2vw; */
+    /* margin-top:1vw; */
+}
+
+.paper-inner img{
+    height: 95%;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.right-inner{
+    width: 65%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-left: 2.2vw;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.right-inner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid gray;
+}

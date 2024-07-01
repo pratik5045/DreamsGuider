@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.attendence-record{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.attendence-head{
+    width: 100%;
+    height: 10%;
+    /* background-color: brown */
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.attendence-head i{
+    font-size: 6vh;
+    padding-right: 8vw;
+}
+
+.attendence-head input{
+    width: 70%;
+    height: 60%;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.attendence-option{
+    width: 100%;
+    height: 35%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.options{
+    width: 25%;
+    height: 60%;
+    background-color: #F4CECE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.options h3{
+    font-size: 4.1vh;
+    font-weight: 500;
+    padding: 1vh;
+}
+
+.attendence-dtl{
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5vw;
+}
+
+
+
+.details{
+    width: 81%;
+    height: 95%;
+    background-color:white;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.details-top{
+    width: 100%;
+    height: 30%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-common{
+    width: 40%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-common h5{
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+.details-bottom{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-common{
+    width: 30%;
+    height: 70%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-common h6{
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-left: 3vw;
+}
+
+.left-p{
+    width: 2vw;
+    height: 2vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+}

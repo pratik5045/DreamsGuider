@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.student-profile-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-side-profile{
+    width: 20%;
+    height: 100%;
+    background-color: #6b74f7;
+}
+
+.upper-profile{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vw;
+    border-bottom: 2px solid white;
+}
+.student-info{
+    margin-top: 1vh;
+}
+.student-info p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 0.3vw;
+    color: #fff;
+}
+.lower-profile{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lower-profile p{
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lower-profile p:hover{
+    background-color: #fff;
+    color: #6b74f7;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.lower-low{
+    width: 100%;
+    margin-top: 1.5vw;
+}
+.lower-low p{
+    padding-left: 3vw;
+    padding-top: 1.5vh;
+    font-weight: 500;
+    transition: 400ms;
+}
+.lower-low i{
+    margin-right: 3vw;
+    font-size: 3vh;
+}
+.right-side-info{
+    width: 80%;
+    height: 100%;
+}
+
+.right-upper{
+    width: 100%;
+    height: 20%;
+    background-color: #edf1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-upper{
+    width: fit-content;
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+.inner-upper p{
+    font-size: 2.55vh;
+    color: rgb(2, 2, 160);
+    font-weight: 550;
+}
+.inner-upper h3{
+    font-size: 5vh;
+    font-weight: 500;
+    color: rgb(251, 35, 35);
+}
+.right-mid{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logout{
+    width: 30vw;
+    height: 16vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    background-color: rgb(253, 253, 253);
+}
+
+
+.upper-log{
+    height: 50%;
+    width: 100%;
+    border-bottom: solid 1px rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper-log h4{
+    font-size: 3.7vh;
+    font-weight: 500;
+}
+
+.lower-log{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.lower-log button{
+    padding: 1vh;
+    margin: 1vw;
+    width: 12vw;
+    height: 3vw;
+    border-radius: 10px;
+    font-size: 2.8vh;
+    margin-top: 2vw;
+    background: none;
+    border: 1px solid gray;
+    color: gray;
+}

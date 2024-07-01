@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+
+.feedback-form{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    padding-left: 10vw;
+    padding-top: 2vw;
+}
+
+.form{
+    height: 95%;
+    width: 85%;
+    background-color: #fff;
+    margin-left: 2vw;
+    border-radius: 12px;
+}
+
+.heading{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding-top: 2vh;
+    padding-left: 5vw;
+}
+
+.heading i{
+    font-size: 5vh;
+}
+
+.heading h2{
+    margin-left: 2vw;
+    margin-top: .1vh;
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.teacher-name{
+    width: 100%;
+    height: 15%;
+    /* background-color: aquamarine; */
+    margin-top: 1vw;
+    padding-top: 2vh;
+    padding-left: 3vw;
+}
+
+
+.teacher-name h4{
+    margin-left: 7vw;
+    font-weight: 400;
+}
+.teacher-name input{
+    width: 95%;
+    padding: 1.5vh;
+    border-radius: 10px;
+    border:none;
+    margin-top: 1.5vh;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.description input{
+    height: 15vh; 
+    text-align: center;               
+}
+
+.submition{
+    width: 100%;
+    height: 8%;
+    /* background-color: red; */
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: .8vh;
+}
+
+.back{
+    width: 20vh;
+    height: 6vh;
+    background: none;
+    border-radius: 8px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.Submit{
+    width: 20vh;
+    height: 6vh;
+    /* background: none; */
+    border-radius: 8px;
+    background-color: #007bff; 
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Submit:hover{
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid black;
+    transition: 400ms;
+    background-position: 100% 100%;
+}

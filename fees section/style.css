@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+
+.student-fees-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left-side-profile{
+    width: 20%;
+    height: 100%;
+    background-color: #6b74f7;
+}
+
+.upper-profile{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vw;
+    border-bottom: 2px solid white;
+}
+
+.student-info{
+    margin-top: 1vh;
+}
+.student-info p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 0.3vw;
+    color: #fff;
+}
+
+.right-side-info{
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 1vw;
+}
+
+.upper-right{
+    height: 3vw;
+    width: 80%;
+    background-color: blue;
+    margin-left: 8vw;
+    display: flex;
+    padding-left: 15vw;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.upper-right i{
+    font-size: 5vh;
+    color: #fff;
+}
+
+.upper-right h2{
+    font-weight: 600;
+    margin-left: 9vw;
+    color: #fff;
+    font-size: 4vh;
+}
+
+.payment-summary{
+    width: 100%;
+    height: 20vw;
+    /* background-color: aqua; */
+    margin-top: 1vw;
+}
+
+.payment-summary-upper{
+    width: 100%;
+    height: 2vw;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-summary-upper p{
+    font-size: 2vh;
+}
+
+.payment-summary-lower{
+    height: calc(100% - 2vw);
+    width: 100%;
+    /* background-color: blueviolet; */
+    padding: 3vw 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.summary-common{
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #c3c3c3;
+    padding: 1vw 2vw;
+}
+
+.class{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.class p{
+    font-size: 2.5vh;
+}
+
+.fee-due{
+    width: 100%;
+    height: 50%;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fee-due h3{
+    color: red;
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.fee-due p{
+    font-size: 2vh;
+    color: gray;
+}
+
+.due-date{
+    width: 100%;
+    height: 20%;
+    /* background-color: #6b74f7; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.due-date p{
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.right-side-upper,.right-side-mid,.right-side-lower{
+    width: 100%;
+    height: 33%;
+    /* background-color: aqua; */
+    padding: 1vh 1vw;
+}
+
+.right{
+    padding-top: 2vw;
+}
+
+.right p{
+    font-size: 2.2vh;
+    margin-left: 3vw;
+}
+
+.right-side-upper p{
+    color: #007bff;
+}
+
+.right-side-mid p{
+    color: green;
+}
+
+.right-side-lower p{
+    color: red;
+}
+
+.history-common{
+    width: 30%;
+    height: 90%;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #c3c3c3;
+    /* padding: 1vw 1vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-common p{
+    font-size: 2.5vh;
+}
+
+.history-common strong{
+    font-weight: 500;
+    font-size: 2.5vh;
+}
