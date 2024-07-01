@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+.about-school{
+    height: 100%;
+    width: 100%;
+}
+.student-profile-page{
+    height: 144vw;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+}
+.left-side-profile{
+    width: 20%;
+    height: 100%;
+    background-color: #6b74f7;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    /* position: relative; */
+}
+
+.upper-profile{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 2vw; */
+    border-bottom: 2px solid white;
+    position: absolute;
+    /* right: 40%; */
+    /* background-color: red; */
+    padding: 1.2vw 0;
+}
+.student-info{
+    margin-top: 1vh;
+}
+.student-info p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 0.3vw;
+    color: #fff;
+}
+.lower-profile{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+.lower-profile p{
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lower-profile p:hover{
+    width: 100%;
+    background-color: #fff;
+    color: #6b74f7;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.lower-low{
+    width: 100%;
+    margin-top: 1.5vw;
+}
+.lower-low p{
+    padding-left: 3vw;
+    padding-top: 1.5vh;
+    font-weight: 500;
+    transition: 400ms;
+}
+.lower-low i{
+    margin-right: 3vw;
+    font-size: 3vh;
+}
+.right-side-info{
+    width: 80%;
+    height: 100%;
+    /* position: relative; */
+    margin-left: 19.8vw;
+}
+
+.right-upper{
+    width: 100%;
+    height: 5%;
+    background-color: #edf1f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-upper{
+    width: fit-content;
+    height: 10vh;
+    margin-top: 2.5vh;
+}
+.inner-upper p{
+    font-size: 2.55vh;
+    color: rgb(2, 2, 160);
+    font-weight: 550;
+}
+.inner-upper h3{
+    font-size: 5vh;
+    font-weight: 500;
+    color: rgb(251, 35, 35);
+}
+.right-mid{
+    width: 100%;
+    height: 130vw;
+    /* background-color: red; */
+}
+
+.right-mid-image{
+    height: 60vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.right-mid-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-mid-second-image{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.right-mid-second-image img{
+    width: 85vh;
+    height: 50vh;
+}
+
+.about-college{
+    height: fit-content;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.college-name{
+    height: 5vw;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+
+.college-name h2{
+    color:  #3D86FF;
+    font-weight: 600;
+}
+
+.about-us-college{
+    height: 40vw;
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-top: 2vw;
+    padding-left: 5vw;
+}
+.about-us-college h3{
+    font-size: 4vh;
+    font-weight: 500;
+}
+.about-us-college p{
+    margin-top: 2vw;
+    font-size: 2.2vh;
+    font-weight: 500;
+    line-height: 1.5;
+    /* width: 90vw; */
+}
+
+.our-vision,.our-mission{
+    width: 90%;
+    height: 7vw;
+    background-color:  #FBEFEF;
+    margin-top: 2vw;
+    padding-top: .5vw;
+    border-radius: 10px;
+    padding-left: 1vh;
+    padding-bottom: 1vh;
+}
+
+.student-image{
+    height: 40vw;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.student-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer{
+    height: 35vw;
+    width: 100%;
+    background-color: #6b74f7;
+    /* margin-left: 19.7vw; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vw;
+    padding-left: 2vw;
+    /* z-index: 20; */
+    color: #fff;
+    position: relative;
+}
+.inner-right{
+    width: 80%;
+    display: flex;
+}
+.left-footer{
+    width: 30%;
+    height: 70%;
+    /* background-color: red; */
+}
+
+.info-footer{
+    padding-left: 4vh;
+    padding-top: 2vh;
+}
+.logos-footer{
+    margin-top: 3vw;
+}
+.left-footer h3{
+    font-size: 3.5vh;
+    font-weight: 400;
+}
+.left-footer p{
+    margin-top: 2vh;
+}
+.logos-footer{
+    width: 100%;
+    height: 5vw;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logos-footer i{
+    font-size: 5vh;
+    padding: 3vh;
+    color: #fff;
+}
+.divi1{
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-mid-footer,.right-mid-footer{
+    width: 22%;
+    height: 70%;
+    /* background-color: crimson; */
+    padding-left: 6vw;
+    padding-top: 2vh;
+}
+.left-mid-footer p,.right-mid-footer p{
+   padding-top: 4vh;
+   font-size: 2.5vh;
+} 
+.right-mid-footer{
+    margin-right: 2vw;
+}
+.left-mid-footer h3,.right-mid-footer h3,.right-footer h3{
+    font-size: 3.5vh;
+    font-weight: 500;
+}
+
+.right-footer{
+    width: 20%;
+    height: 70%;
+    margin-left: .2vw;
+    padding-top: 2.6vh;
+    /* background-color: crimson; */
+}
+
+.right-footer h3{
+    padding-left: 3vw;
+}
+
+.hotel-div{
+    width: 90%;
+    height: 3.5vw;
+    /* background-color: rebeccapurple */
+    margin-top: 2vw;
+    display: flex;
+    margin-left: 2vh;
+}
+
+.left-hotel-div{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    border-radius: 12px 0  0 12px ;
+    color: #000;
+}
+.right-hotel-div{
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+    border-radius: 0 12px 12px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    color: #000;
+}
+
+.footer-bottom{
+    width: 80%;
+    height: 5vw;
+    /* background-color: red; */
+    position: absolute;
+    top: 30vw;
+    left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.footer-bottom h2{
+    font-weight: 400;
+}
